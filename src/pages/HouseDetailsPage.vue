@@ -39,7 +39,7 @@ export default {
       state,
       async deleteHouse() {
         await housesService.deleteHouse(state.house._id)
-        router.push({ name: 'House' })
+        router.push({ name: 'Houses' })
       }
     }
   },

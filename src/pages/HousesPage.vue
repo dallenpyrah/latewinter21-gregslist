@@ -103,7 +103,7 @@ import House from '../components/House'
 import { useRouter } from 'vue-router'
 
 export default {
-  name: 'HousesPage',
+  name: 'Houses',
   setup() {
     const router = useRouter()
     const state = reactive({

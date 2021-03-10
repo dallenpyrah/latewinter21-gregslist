@@ -37,10 +37,11 @@ export default {
       state,
       async deleteJob() {
         await jobsService.deleteJob(state.jobs._id)
-        router.push({ name: 'Job' })
+        router.push({ name: 'Jobs' })
       }
     }
-  }
+  },
+  components: {}
 }
 </script>
 
