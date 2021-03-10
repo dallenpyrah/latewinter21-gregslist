@@ -35,6 +35,7 @@ class JobsService {
   async deleteJob(id) {
     try {
       await sandboxApi.delete('jobs/' + id)
+      this.getJobs()
     } catch (error) {
       console.error(error)
     }

@@ -61,9 +61,9 @@
       </div>
       <button class="btn btn-success" type="submit">Create</button>
     </form>
-    <div class="row justify-content-around">
-      <Job v-for="jobData in state.jobs" :key="jobData._id" :job="jobData" />
-    </div>
+      <div class="row justify-content-around">
+        <Job v-for="jobData in state.jobs" :key="jobData._id" :job="jobData" />
+      </div>
   </div>
 </template>
 
