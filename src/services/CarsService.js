@@ -36,7 +36,7 @@ class CarsService {
     try {
       await sandboxApi.put('cars/' + id, car)
     } catch (error) {
-
+      console.error(error)
     }
   }
 

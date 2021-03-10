@@ -6,7 +6,9 @@
           <h1>Gregslist</h1>
           <div class="text-light">
             <router-link :to="{name: 'Home'}">Home</router-link> |
-            <router-link :to="{name: 'Cars'}">Cars</router-link>
+            <router-link :to="{name: 'Cars'}">Cars</router-link> |
+            <router-link :to="{name: 'Houses'}">Houses</router-link> |
+            <router-link :to="{name: 'Jobs'}">Jobs</router-link> |
           </div>
         </div>
       </div>
